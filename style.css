@@ -1,0 +1,90 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, san-serif;
+}
+.calculator-outer-div {
+  border: solid black 1px;
+  width: 300px;
+  height: 500px;
+}
+.display-div {
+  background-color: 	#e5e5e5;
+  width: 300px; 
+  height: 150px;
+  // position: static;
+}
+.calculator-label, .minimize-button, .maximize-button, .close-button {
+  display: inline-block;
+  font-size: 15px;
+}
+.minimize-button, .maximize-button, .close-button {
+  text-align: center;
+}
+.calculator-label {
+  padding: 8px 5px 4px 8px;
+  width: 70%;
+}
+.minimize-button {
+  width: 5%;
+}
+.maximize-button {
+  width: 5%;
+  padding-left: 3px;
+}
+.close-button {
+  width: 5%;
+  padding-left: 5px;
+}
+.display-output {
+  text-align: right;
+  font-size: 40px;
+  position: relative;
+  top: 75px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+.numbers-div {
+  position: relative;
+  // top: px;
+  background-color: #e5e5e5;
+}
+.row-one, .row-two, .row-three, .row-four, .row-five, .row-six {
+  width: 24%;
+  font-size: 25px;
+  text-align: center;
+  margin: 2px auto;
+  padding: 13px 0px;
+}
+.row-one, .row-two, .row-six {
+  background-color: aliceblue;
+}
+.row-six {
+  margin-bottom: 3px;
+}
+.modulo-div, .all-clear-button, .clear-entry, .delete-button {
+  display: inline-block;
+}
+.fraction, .square-root-div, .x-squared-div, .division {
+  display: inline-block;
+}
+.seven, .eight, .nine, .multiply {
+  display: inline-block;
+}
+.four, .five, .six, .subtraction {
+  display: inline-block;
+}
+.one, .two, .three, .addition {
+  display: inline-block;
+}
+.plus-minus, .zero, .decimal, .equal-sign {
+  display: inline-block;
+}
+.number {
+  background-color: bisque;
+}
+.non-number {
+  background-color: aliceblue;
+}
+.key:hover {
+  background-color: #ffb367;
+  transition: 0.2s;
+}

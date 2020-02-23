@@ -25,6 +25,8 @@ body {
 }
 .minimize-button {
   width: 5%;
+  font-weight: bold;
+  font-size: 16px;
 }
 .maximize-button {
   width: 5%;
@@ -77,6 +79,9 @@ body {
 }
 .plus-minus, .zero, .decimal, .equal-sign {
   display: inline-block;
+}
+.multiply {
+  // font-size: 18px;
 }
 .number {
   background-color: bisque;

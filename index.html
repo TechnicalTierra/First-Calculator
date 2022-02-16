@@ -20,40 +20,40 @@
         </div>
         <div class="display-output">
           <!-- TESTING -->
-          <input type="text"/>
-          <p id="calculation-output"><!-- leave blank? --></p>
+          <input id="input-text-box" type="text" />
+          <!-- <p id="calculation-output"> leave blank?</p> -->
         </div>
       </div>
       <div class="calculator-keys">
-        <div onclick="" class="key row-one non-number modulo-div" data-action="">%</div>
-        <div onclick="" class="key row-one non-number square-root-div" data-action="">√</div>
-        <div onclick="" class="key row-one non-number x-squared-div">x²</div>
-        <div onclick="" class="key row-one non-number fraction">1/x</div>
+        <div onclick="buttonModuloPressed()" class="key row-one non-number modulo-div" data-action="">%</div>
+        <div onclick="buttonSquareRootPressed()" class="key row-one non-number square-root-div" data-action="">√</div>
+        <div onclick="buttonSquaredPressed()" class="key row-one non-number x-squared-div">x²</div>
+        <div onclick="buttonFractionPressed()" class="key row-one non-number fraction">1/x</div>
 
-        <div onclick="" class="key row-two non-number all-clear-button" data-action="clear">CE</div>
+        <div onclick="buttonClearPressed()" class="key row-two non-number all-clear-button" data-action="clear">CE</div>
         <!-- <div onclick="" class="key row-two non-number clear-entry">C</div> -->
-        <div onclick="" class="key row-two non-number delete-button">←</div>
-        <div onclick="" class="key row-two non-number division" data-action="divide">÷</div>
+        <div onclick="buttonBackspacePressed()" class="key row-two non-number delete-button">←</div>
+        <div onclick="buttonDividePressed()" class="key row-two non-number division" data-action="divide">÷</div>
 
-        <div id="calc-seven" onclick="" class="key row-three number seven">7</div>
-        <div id="calc-eight" onclick="" class="key row-three number eight">8</div>
-        <div id="calc-nine" onclick="" class="key row-three number nine">9</div>
-        <div onclick="" class="key row-three non-number multiply" data-action="multiply">x</div>
+        <div id="sevenBtn" onclick="buttonSevenPressed()" class="key row-three number seven">7</div>
+        <div id="eightBtn" onclick="buttonEightPressed()" class="key row-three number eight">8</div>
+        <div id="nineBtn" onclick="buttonNinePressed()" class="key row-three number nine">9</div>
+        <div onclick="buttonMultiplyPressed()" class="key row-three non-number multiply" data-action="multiply">x</div>
 
-        <div id="calc-four" onclick="" class="key row-four number four">4</div>
-        <div id="calc-five" onclick="" class="key row-four number five">5</div>
-        <div id="calc-six" onclick="" class="key row-four number six">6</div>
-        <div onclick="" class="key row-four non-number subtraction"data-action="subtract">-</div>
+        <div id="fourBtn" onclick="buttonFourPressed()" class="key row-four number four">4</div>
+        <div id="fiveBtn" onclick="buttonFivePressed()" class="key row-four number five">5</div>
+        <div id="sixBtn" onclick="buttonSixPressed()" class="key row-four number six">6</div>
+        <div onclick="buttonSubtractPressed()" class="key row-four non-number subtraction"data-action="subtract">-</div>
 
-        <div id="calc-one" onclick="" class="key row-five number one">1</div>
-        <div id="calc-two" onclick="" class="key row-five number two">2</div>
-        <div id="calc-three" onclick="" class="key row-five number three">3</div>
-        <div onclick="" class="key row-five non-number addition" data-action="add">+</div>
+        <div id="oneBtn" onclick="buttonOnePressed()" class="key row-five number one">1</div>
+        <div id="twoBtn" onclick="buttonTwoPressed()" class="key row-five number two">2</div>
+        <div id="threeBtn" onclick="buttonThreePressed()" class="key row-five number three">3</div>
+        <div onclick="buttonAddPressed()" class="key row-five non-number addition" data-action="add">+</div>
 
-        <div onclick="" class="key row-six non-number plus-minus">±</div>
-        <div id="calc-zero" onclick="" class="key row-six number zero">0</div>
-        <div onclick="" class="key row-six non-number decimal" data-action="">.</div>
-        <div onclick="" class="key row-six non-number equal-sign" data-action="calculate">=</div>
+        <div onclick="buttonPlusMinusPressed()" class="key row-six non-number plus-minus">±</div>
+        <div id="calc-zero" onclick="buttonZeroPressed()" class="key row-six number zero">0</div>
+        <div onclick="buttonDecimalPressed()" class="key row-six non-number decimal" data-action="">.</div>
+        <div onclick="buttonEqualPressed()" class="key row-six non-number equal-sign" data-action="calculate">=</div>
     </div>
     <script src="script.js"></script>
   </body>
